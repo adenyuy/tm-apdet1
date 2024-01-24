@@ -37,6 +37,14 @@ header
     background-color: var(--blue);
     padding: 2%;
     top: 0;
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round',
+            sans-serif;
+    column-gap: 7%;
+    margin-top: 5%; */
 }
 
 
@@ -48,15 +56,24 @@ header
     font-size: 20pt;
 }
 
+.logo
+{
+    width: 30px;
+    justify-content: left;
+    height: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
 
 .input-search
 {
 
-    width: 30%;
+    width: 50%;
     border: none;
     border-radius: 0 0 0 10px;
     padding: 3px;
     margin-left: 10px;
+    /* margin-top: 5%; */
 }
 
 .input-submit
@@ -100,9 +117,13 @@ nav ul li a:hover
 {
     margin-top: 10%;
     display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    /* margin-left: auto !important; */
+    /* margin-right: auto !important; */
+    margin-right: 5%;
+    margin-left: 20%;
     width: 50%;
+    /* eight: 100%; */
+    justify-content: center;
 }
 
 .slider h4
@@ -199,20 +220,22 @@ nav ul li a:hover
 
 .title-p
 {
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-top: 5%;
+    justify-content: center;
+    display: flex;
 }
 
 .populer
 {
-    display: grid; 
-    grid-template-columns: repeat(6,1fr);
+    /* display: flex;  */
+    /* grid-template-columns: repeat(6,1fr); */
     width: 90%;
     margin-left: 5%;
     margin-right: 10%;
 }
 
-.populer img
+.populer video
 {
     border-radius: 20px;
 }
@@ -238,4 +261,20 @@ nav ul li a:hover
     overflow: hidden;
     /* background-color: red; */
     
+}
+
+.preview
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+
+.preview1
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
